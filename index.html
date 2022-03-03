@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wireframe to HTML and CSS project</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link href="src/styles.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,300;1,100&display=swap" rel="stylesheet">
+    <script
+      src="https://kit.fontawesome.com/ad036d1907.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <div class="card cards">
+            <div class="card-body">
+              <div class="mb-3">
+                <label class="control-label">What city are you in?</label>
+                <form id="search-city">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="city-input"
+                  placeholder="Search city"
+                /></br>
+                <button type="submit" class="btn btn-primary search-button">Search</button>
+                <button id= "get-location-button" type="button" class="btn btn-success location-button">Current Location</button>
+              </br></form>
+                </br>
+                <h1 id="current-city" class="current-city">Toronto</h1>
+            
+                <h2 id ="current-temperature">-5ºC</h2>
+                <p id="current-condition">Cloudy</p>
+                </br>
+               <h6 id="date">Current Date</h6>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="card cards">
+            <div class="card-body">
+                 <div class="mb-3">
+            </br>
+               <h1>Weekly Forecast</h1>
+                </br>
+                <div class="row">
+                  <div class="col-4">Sunday</div>
+                  <div class="col-4"><i class="fas fa-cloud-rain cloud-rain"></i></div>
+                  <div class="col-4">15°C</div>
+                </div>
+                <div class="row">
+                  <div class="col-4">Monday</div>
+                  <div class="col-4"><i class="fas fa-cloud-sun-rain sun-rain"></i></div>
+                  <div class="col-4">18°C</div>
+                </div>
+                <div class="row">
+                  <div class="col-4">Tuesday</div>
+                  <div class="col-4"><i class="fas fa-sun sun"></i></div>
+                  <div class="col-4">24°C</div>
+                </div>
+                <div class="row">
+                  <div class="col-4 wednesday">Wednesday</div>
+                  <div class="col-4"><i class="fas fa-cloud cloud"></i></div>
+                  <div class="col-4">16°C</div>
+                </div>
+                <div class="row">
+                  <div class="col-4">Thursday</div>
+                  <div class="col-4"><i class="fas fa-cloud-rain cloud-rain"></i></div>
+                  <div class="col-4">15°C</div>
+                </div>
+                <div class="row">
+                  <div class="col-4">Friday</div>
+                  <div class="col-4"><i class="fas fa-sun sun"></i></div>
+                  <div class="col-4">22°C</div>
+                </div>
+                <div class="row">
+                  <div class="col-4">Saturday</div>
+                  <div class="col-4"><i class="fas fa-cloud cloud"></i></div>
+                  <div class="col-4">16°C</div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
