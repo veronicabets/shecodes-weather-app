@@ -42,6 +42,12 @@ card {
   text-align: center;
   padding: 50px;
 }
+
+.source-code {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 11px;
+}
 .cards {
   position: relative;
   left: 150px;
