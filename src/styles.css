@@ -1,0 +1,148 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-color: #6b8cce;
+}
+
+h1 {
+  text-align: center;
+  line-height: 90px;
+  padding-bottom: 0px;
+  color: #4162a4;
+  font-family: "Bebas Neue", cursive;
+  font-size: 60px;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+h6 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+
+p {
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+
+card {
+  text-align: center;
+  padding: 50px;
+}
+.cards {
+  position: relative;
+  left: 150px;
+  top: 100px;
+}
+
+.card-body {
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+}
+
+.control-label {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.form-control {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+}
+
+.form-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.search-button {
+  background-color: #6b8cce;
+  border-color: #6b8cce;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  padding: 4px;
+}
+
+.search-button:hover {
+  background-color: #0c3483;
+  border-color: #0c3483;
+}
+
+.location-button {
+  background-color: #91c788;
+  border-color: #91c788;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  padding: 4px;
+}
+
+.location-button:hover {
+  background-color: #406343;
+  border-color: #406343;
+}
+
+.current-city {
+  text-align: center;
+  color: #4162a4;
+  font-family: "Bebas Neue", cursive;
+  font-size: 80px;
+}
+
+.star-icon {
+  position: relative;
+  left: -10px;
+  top: -50px;
+  color: #fff44f;
+  font-size: 20px;
+}
+
+.col-6 {
+  width: 480px;
+}
+
+.col-4 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 23px;
+  font-weight: bolder;
+}
+.wednesday {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bolder;
+}
+.cloud-rain {
+  text-align: right;
+  color: #4e728f;
+}
+.sun-rain {
+  text-align: right;
+  color: #fad7a0;
+}
+.sun {
+  text-align: right;
+  color: #f1c40f;
+}
+
+.cloud {
+  text-align: right;
+  color: #ccd1d1;
+}
